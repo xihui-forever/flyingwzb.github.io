@@ -5,7 +5,7 @@ header-img: img/post-bg-index.jpg
 email: yuanxi76@outlook.com
 description: "Every failure is leading towards success."
 keyword: "袁希的博客, X. yuan, 袁希, Java"
-url: "https://flyingyx.github.io/"          # your host, for absolute URL
+url: "https://xihui-forever.github.io/"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/flyingwzb/flyingwzb.github.io.git" # you code repository
 
