@@ -2,8 +2,9 @@
 layout:     post
 title:      IDEA快捷键使用
 subtitle:   熟练使用IDEA快捷键，开发效率飞一般的感觉
-date:       2018-02-04
-author:     Will Wang
+date:       2020-02-10
+author:     X. yuan
+from: Will Wang
 header-img: img/post-bg-debug.png
 catalog: true
 tags:
