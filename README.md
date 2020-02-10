@@ -1,5 +1,11 @@
+#New README.md
+这是我fork后经修改建的个人博客，在此感谢 https://github.com/flyingwzb/flyingwzb.github.io
+######the reason of personal blog
+*record my life*
+*write some summary*
+*try to step further*
 
-
+---
 ![](https://raw.githubusercontent.com/flyingwzb/flyingwzb.github.io/master/img/readme-home.png)
 
 [![Build Status](https://travis-ci.org/flyingwzb/flyingwzb.github.io.svg?branch=master)](https://travis-ci.org/flyingwzb/flyingwzb.github.io)
