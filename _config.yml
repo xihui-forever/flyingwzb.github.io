@@ -100,5 +100,5 @@ friends: [
 
 
 # 支付宝、微信打赏二维码
-alipay_qr_img: ''
-wechat_qr_img: ''
+alipay_qr_img: 'zhifupay.jpg'
+wechat_qr_img: 'wxpay.jpg'
