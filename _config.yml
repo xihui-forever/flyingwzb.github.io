@@ -12,7 +12,7 @@ github_repo: "https://github.com/xihui-forever/xihui-forever.github.io.git" # yo
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "做最好的自己。"
-sidebar-avatar: /img/will-wang.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/wo.jpg      # use absolute URL, seeing it's used in both `/` and `/about
 
 
 
