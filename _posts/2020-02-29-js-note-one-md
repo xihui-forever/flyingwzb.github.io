@@ -25,5 +25,5 @@ tags:
 `ctx.moveTo(x,y)//start`
 `ctx.lineTo(x,y)//end`
 ####circle
-`ctx.arc(x,y,r,start,stop)//start:起始角度；stop:结束角度（均以弧度表示，顺时针方向画圆，圆心平行右端为0度·
+`ctx.arc(x,y,r,start,stop)//start:起始角度；stop:结束角度（均以弧度表示，顺时针方向画圆，圆心平行右端为0度`
 
