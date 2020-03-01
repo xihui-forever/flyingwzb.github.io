@@ -26,14 +26,17 @@ tags:
 
 ### 绘制
 #### Path
+
 - beginPath()路径起始
 - closePath()路径结束
 - fill()填充内容区域生成实心图形
 - stroke()通过线条来绘制图形轮廓
 - clear()清除
 - clip()裁剪
+
 #### Line
 ##### line style
+
 - linewidth=value
 - lineCap=tap//设置线条末端样式:butt，round 和 square,默认是 butt
 - lineJoin=type//设定线条与线条间接合处的样式:round, bevel 和 miter,默认是 miter
@@ -54,6 +57,7 @@ ctx.bazierCurveTo(cp2x,cp2y,cp3x,cp3y,x1,y1);//三次贝塞尔曲线(两个控�
 ```
 
 #### Circle
+
 `ctx.arc(x,y,r,startAngle,stopAngle,anticlockwise)//startAngle:起始角度；stopAngle:结束角度（均以弧度表示，顺时针方向画圆，圆心平行右端为0度)`
 
 ```
@@ -63,6 +67,7 @@ ctx.stroke();//边框
 ```
 
 #### Text
+
 1. font = fontfamily
 2. textAlign = value(start, end, left, right or center,默认值是 start)
 2. textBaseline:
@@ -83,6 +88,7 @@ ctx.stroke();//边框
 
 `ctx.strokeText(text,x,y)`
 #### Gradient
+
 - Line渐变：`grd=ctx.createLinearGradient(x,y,x1,y1)`
 - 径向/圆渐变：`grd=ctx.createRadialGradient(x,y,r,x1,y1,r1)`
 
@@ -99,8 +105,11 @@ var grd=ctx.createLinearGradient(0,0,0,800);// create gradient
 	ctx.fillRect(0,0,1200,800);
 ```
 #### Transparency
+
 - globalAlpha = tansparencyValue
+
 #### Image
+
 1. 使用相同页面内的图片
 - document.images集合
 - document.getElementsByTagName()方法
@@ -153,11 +162,14 @@ function drawStar(ctx,r){
 
 #### Animation
 ##### Basic Steps
+
 1. 清空 canvas: clearRect 方法
 2. 保存 canvas 状态: 在每画一帧之时都是原始状态时做一些改变,先保存一下canvas
 3. 绘制动画图形（animated shapes): 重绘动画帧
 4. 恢复 canvas 状态: 先恢复它，然后重绘下一帧
+
 ##### Scheduled Updates
+
 - setInterval(function, delay)当设定好间隔时间后，function会定期执行
 - setTimeout(function, delay)在设定好的时间之后执行函数
 - requestAnimationFrame(callback)告诉浏览器你希望执行一个动画，并在重绘之前，请求浏览器执行一个特定的函数来更新动画
@@ -269,4 +281,4 @@ window.requestAnimationFrame(clock);
 - 不可见的Canvas复制到页面可见的Canvas
 - 尽量使用整数坐标（ps:注意lineWidth加了closePath()的半渲染状态）
 - 建多个重叠的Canvas，绘制不同的层
-- 若背景图片不变，则直接用<img>放在最底层
+- 若背景图片不变，则直接用img元素放在最底层
