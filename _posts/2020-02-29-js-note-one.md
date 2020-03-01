@@ -84,7 +84,8 @@ ctx.stroke();//边框
 `ctx.strokeText(text,x,y)`
 #### Gradient
 - Line渐变：`grd=ctx.createLinearGradient(x,y,x1,y1)`
-- 径向/圆渐变：`grd=ctx.createRadialGradient(x,y,r,x1,y1,r1)
+- 径向/圆渐变：`grd=ctx.createRadialGradient(x,y,r,x1,y1,r1)`
+
 *e.g.渐变星空*
 ```
 var grd=ctx.createLinearGradient(0,0,0,800);// create gradient
@@ -111,7 +112,6 @@ var grd=ctx.createLinearGradient(0,0,0,800);// create gradient
 4. 由零开始创建图像
 - 用脚本创建一个新的 HTMLImageElement 对象,使用Image()构造函数
 
->
 ```
  var img = new Image();
     img.onload = function(){//用load事件来保证不会在加载完毕之前使用这个图片
@@ -160,9 +160,9 @@ function drawStar(ctx,r){
 - setInterval(function, delay)当设定好间隔时间后，function会定期执行
 - setTimeout(function, delay)在设定好的时间之后执行函数
 - requestAnimationFrame(callback)告诉浏览器你希望执行一个动画，并在重绘之前，请求浏览器执行一个特定的函数来更新动画
+
 *e.g.动画时钟*
 
->
 ```
 function clock(){
   var now = new Date();
