@@ -73,6 +73,7 @@ ctx.stroke();//边框
 - alphabetic baseline
 - bottom of em square
 3. shadow
+
 `ctx.shadowOffsetX = float;//X or Y;float:延伸距离`
 
 `ctx.shadowBlur = float;//模糊程度`
@@ -123,6 +124,7 @@ var grd=ctx.createLinearGradient(0,0,0,800);// create gradient
 #### Translate
 `ctx.translate(x,y)//x:左右偏移量;y:上下偏移量`
 
+*e.g.洒星星*
 ```
 // draw stars
 for (var j=1;j<100;j++){
