@@ -16,6 +16,7 @@ tags:
 **先敬上英文原稿**
 
 >Teach girls bravery, not perfection
+
 >>So a few years ago, I did something really brave, or some would say really stupid. I ran for Congress. 
 
 >>For years, I had existed safely behind the scenes in politics as a fundraiser, as an organizer, but in my heart, I always wanted to run. The sitting congresswoman had been in my district since 1992. She had never lost a race, and no one had really even run against her in a Democratic primary. But in my mind, this was my way to make a difference, to disrupt the status quo. The polls, however, told a very different story. My pollsters told me that I was crazy to run, that there was no way that I could win. 
